@@ -1,0 +1,170 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+h1{
+font-size:50px;
+}
+p{   font-size:20px;
+}
+body {
+   background: #f4f1e5;
+   color: #544738;
+   font-family: helvetica, sans-serif;
+}
+div {
+   display: block;
+}
+
+header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   min-height: 80px;
+   padding: 1em;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #eee;
+}
+ul li {
+ float: left;
+ list-style: none;
+ margin-right: 1em; 
+}
+nav > ul {
+   width: 40vw;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+ 
+li a {
+ color: #544738;
+ text-decoration: none;
+ float: left;
+ font-size: 20px;
+ padding: 12px;
+}
+ 
+li a:hover {
+ color: #7eb9be;
+}
+header {
+  top: 0;
+  min-height: 10px;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  background-color: #eee;
+}
+#form{
+  display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   height: 200px;
+   margin-top: 50px;
+}
+#form > label {
+   margin-bottom: 20px;
+   word-wrap: break-word;
+}
+#form > input{
+   margin-bottom: 20px;
+}
+#email{
+   width: 75%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+.meteora-hh{
+   background-image: url("https://stuff.fendergarage.com/images/B/C/2/01_PPMeteora_HH_Desktop.jpg");
+   width: 100%;
+   position: static;
+   font-family: SourceSansPro,Helvetica,Arial,sans-serif;
+background-size: cover;
+text-decoration:solid;
+}
+ .meteora-bass{
+   background-image: url("https://stuff.fendergarage.com/images/U/n/X/02_PPMeteora_ActiveBass_Desktop.jpg");
+   width: 100%;
+   position: static;
+   font-family: SourceSansPro,Helvetica,Arial,sans-serif;
+background-size: cover;
+text-decoration:solid;
+}
+
+.logo > img {
+   width: 100%;
+   height: 100%;
+   max-width: 150px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-left: 20px;
+}
+.submit{
+       background-color: #f44336; 
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   border-radius: 5px;
+       -webkit-transition-duration: 0.4s;
+   transition-duration: 0.4s;
+}
+.submit:hover{
+       background-color: #4CAF50; /* Green */
+   color: white;
+}
+footer{
+   margin-top: 30px;
+background-color: #ddd;
+   padding: 20px;
+   width: 100%;
+}
+footer > ul {
+   display: flex;
+   justify-content: flex-end;
+}
+footer > span {
+   margin-top: 5px;
+   display: flex;
+   justify-content: flex-end;
+   font-size: 0.9em;
+   color: #444;
+}
+@media (max-width: 500px) {
+ #header {
+   flex-direction: column;
+ }
+ 
+ #header-img {
+   display: none;
+ }
+ #logo {
+   text-align: center
+ }
+
+ #logo {
+   padding: 10px;
+ }
+ #nav-bar {
+   width: 90%;
+   height: 40px;
+   justify-content: space-around;
+ }
+   
+}
