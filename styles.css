@@ -16,6 +16,9 @@ body {
 div {
    display: block;
 }
+#product ,#features{
+   text-align: center;
+}
 
 header {
    position: fixed;
